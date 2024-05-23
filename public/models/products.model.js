@@ -3,6 +3,10 @@ const Schema = mongoose.Schema;
 // var ids = require('short-id');
 
 const Product = new Schema({
+  // productID: {
+  //   type: String,
+  //   required: false,
+  // },
   productName: {
     type: String,
   },
@@ -10,7 +14,7 @@ const Product = new Schema({
     type: String,
   },
   quantity: {
-    type: String,
+    type: Number,
   },
   status: {
     type: String,

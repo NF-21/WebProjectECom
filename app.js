@@ -6,7 +6,7 @@ const port = 3004
 app.set('view engine', 'ejs')
 const userRoutes = require('./public/routes/users.routes');
 const productRoutes = require('./public/routes/products.routes');
-
+// const cartRoutes = require('./public/routes/addToCart');
 app.use(express.static('public'))
 app.use(express.json());
 //for auto refresh 
@@ -60,9 +60,53 @@ app.get('/Cart', (req, res) => {
 app.get('/cartEmpty', (req, res) => {
     res.render("cartEmpty")
 })
-app.get('/category', (req, res) => {
-    res.render("category")
-})
+// app.get('/category', (req, res) => {
+//     res.render("category")
+// })
+app.get('/categoryEquipment', (req, res) => {
+    axios.get('http://127.0.0.1:3004/product/getallproducts')
+        .then(response => {
+            const products = response.data;
+            res.render('categoryEquipment', { products }); // Pass products to the template
+        })
+        .catch(error => {
+            console.error('Error fetching products:', error);
+            res.status(500).send('Error fetching products');
+        });
+});
+app.get('/categoryTShirtsAndTops', (req, res) => {
+    axios.get('http://127.0.0.1:3004/product/getallproducts')
+        .then(response => {
+            const products = response.data;
+            res.render('categoryTShirtsAndTops', { products }); // Pass products to the template
+        })
+        .catch(error => {
+            console.error('Error fetching products:', error);
+            res.status(500).send('Error fetching products');
+        });
+});
+app.get('/categoryAccessories', (req, res) => {
+    axios.get('http://127.0.0.1:3004/product/getallproducts')
+        .then(response => {
+            const products = response.data;
+            res.render('categoryAccessories', { products }); // Pass products to the template
+        })
+        .catch(error => {
+            console.error('Error fetching products:', error);
+            res.status(500).send('Error fetching products');
+        });
+});
+app.get('/categorySupplements', (req, res) => {
+    axios.get('http://127.0.0.1:3004/product/getallproducts')
+        .then(response => {
+            const products = response.data;
+            res.render('categorySupplements', { products }); // Pass products to the template
+        })
+        .catch(error => {
+            console.error('Error fetching products:', error);
+            res.status(500).send('Error fetching products');
+        });
+});
 app.get('/addproduct', (req, res) => {
     res.render("addproduct")
 })
@@ -120,8 +164,9 @@ app.use((req, res) => { //Error link
         res.status(404).send(" - Sorry can't find this page (404 Error) ")
     })
     //End Routing 
-
-
+// const addToCartRoute = require(cartRoutes); // Adjust the path if necessary
+//     app.use(addToCartRoute);
+    
 
 
 

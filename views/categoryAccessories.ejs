@@ -12,17 +12,17 @@
        
         <% if (Array.isArray(products) && products.length > 0) { %>
                 <% products.forEach(product => { %>
-        <% if (product.category === 'Equipment') { %>        
+        <% if (product.category === 'Accessories') { %>        
             <div class="col-lg-3 col-md-6 col-12">
                 <div class="single-product">
                     <div class="product-image">
                         <img src="/uploads/<%= product.image %>" alt="#">
                         <div class="button-product">
-                            <a href="#" class="btn-product" data-id="<%= product._id %>"><i class="lni lni-cart"></i>Add to cart</a>
+                            <a href="#" class="btn-product"><i class="lni lni-cart"></i>Add to cart</a>
                         </div>
                     </div>
                     <div class="product-info">
-                        <span class="category">Equipment</span>
+                        <span class="category">Accessories</span>
                         <h4 class="title-info">
                             <a href="#"><%= product.productName %></a>
                         </h4>
@@ -79,29 +79,6 @@
         });
         });
 
-        
-    </script>
-    <script>
-        $(document).ready(function() {
-            $('.btn-product').click(function(event) {
-                event.preventDefault();
-                const productId = $(this).data('id');
-
-                $.ajax({
-                    url: '/add-to-cart',
-                    method: 'POST',
-                    contentType: 'application/json',
-                    data: JSON.stringify({ productId }),
-                    success: function(response) {
-                        alert('Product added to cart');
-                    },
-                    error: function(error) {
-                        console.log(error);
-                        alert('Failed to add product to cart');
-                    }
-                });
-            });
-        });
     </script>
 
 
