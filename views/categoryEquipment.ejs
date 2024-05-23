@@ -9,36 +9,34 @@
             <!--End Trending section Paragrah-->
 
             <div class="row">
-       
-        <% if (Array.isArray(products) && products.length > 0) { %>
-                <% products.forEach(product => { %>
-        <% if (product.category === 'Equipment') { %>        
-            <div class="col-lg-3 col-md-6 col-12">
-                <div class="single-product">
-                    <div class="product-image">
-                        <img src="/uploads/<%= product.image %>" alt="#">
-                        <div class="button-product">
-                            <a href="#" class="btn-product" data-id="<%= product._id %>"><i class="lni lni-cart"></i>Add to cart</a>
-                        </div>
-                    </div>
-                    <div class="product-info">
-                        <span class="category">Equipment</span>
-                        <h4 class="title-info">
-                            <a href="#"><%= product.productName %></a>
-                        </h4>
-                        <div class="price">
-                            <span>$<%= product.status %></span>
-                        </div>
-                    </div>
-                </div>
+                <% if (Array.isArray(products) && products.length > 0) { %>
+                    <% products.forEach(product => { %>
+                        <% if (product.category === 'Equipment') { %>
+                            <div class="col-lg-3 col-md-6 col-12">
+                                <div class="single-product">
+                                    <div class="product-image">
+                                        <img src="/uploads/<%= product.image %>" alt="#">
+                                        <div class="button-product">
+                                            <a href="#" class="btn-product" data-id="<%= product.productID %>"><i class="lni lni-cart"></i>Add to cart</a>
+                                        </div>
+                                    </div>
+                                    <div class="product-info">
+                                        <span class="category">Equipment</span>
+                                        <h4 class="title-info">
+                                            <a href="#"><%= product.productName %></a>
+                                        </h4>
+                                        <div class="price">
+                                            <span>$<%= product.status %></span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        <% } %>
+                    <% }); %>
+                <% } else { %>
+                    <p class="mt-4">No products found.</p>
+                <% } %>
             </div>
-        <% } %>
-    <% }); %>
-<% } else { %>
-    <p class="mt-4">No products found.</p>
-<% } %>
-            
-    </div>
         </div>
     </section>
     <!-- End Product -->
@@ -81,28 +79,44 @@
 
         
     </script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script>
         $(document).ready(function() {
             $('.btn-product').click(function(event) {
                 event.preventDefault();
                 const productId = $(this).data('id');
+                const token = localStorage.getItem('token'); // or however you store the token
+
+                if (!token) {
+                    console.error('Token not found');
+                    alert('You must be logged in to add products to the cart.');
+                    return;
+                }
+
+                console.log('Product ID:', productId);
+                console.log('Token:', token);
 
                 $.ajax({
-                    url: '/add-to-cart',
+                    url: 'http://127.0.0.1:3004/cart/add-to-cart',
                     method: 'POST',
+                    headers: {
+                        'Authorization': `Bearer ${token}`
+                    },
                     contentType: 'application/json',
                     data: JSON.stringify({ productId }),
                     success: function(response) {
+                        console.log('Response:', response);
                         alert('Product added to cart');
                     },
-                    error: function(error) {
-                        console.log(error);
-                        alert('Failed to add product to cart');
+                    error: function(xhr, status, error) {
+                        console.error('Error:', xhr.responseText);
+                        alert(`Failed to add product to cart: ${xhr.responseText}`);
                     }
                 });
             });
         });
     </script>
+    
 
 
 </body>

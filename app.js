@@ -6,7 +6,7 @@ const port = 3004
 app.set('view engine', 'ejs')
 const userRoutes = require('./public/routes/users.routes');
 const productRoutes = require('./public/routes/products.routes');
-// const cartRoutes = require('./public/routes/addToCart');
+const addToCartRoute = require('./public/routes/addToCart');
 app.use(express.static('public'))
 app.use(express.json());
 //for auto refresh 
@@ -14,9 +14,14 @@ const path = require("path");
 const livereload = require("livereload");
 const liveReloadServer = livereload.createServer();
 liveReloadServer.watch(path.join(__dirname, 'public'));
+const authorization = require('./public/middlewares/authorization'); // Adjust the path if necessary
+const cartRoute = require('./public/routes/cart'); // Adjust the path if necessary
 
 const connectLivereload = require("connect-livereload");
 app.use(connectLivereload());
+
+app.use(express.json());
+app.use(express.urlencoded({ extended: true }));
 
 liveReloadServer.server.once("connection", () => {
     setTimeout(() => {
@@ -24,7 +29,9 @@ liveReloadServer.server.once("connection", () => {
     }, 100);
 });
 //End refresh
-
+app.get('/test', (req, res) => {
+    res.send('Test route is working');
+});
 //Routing 
 app.get('/', (req, res) => {
     axios.get('http://127.0.0.1:3004/product/getallproducts') // Make a GET request to the API endpoint
@@ -54,15 +61,15 @@ app.get('/home', (req, res) => {
 app.get('/index', (req, res) => {
     res.render("home")
 })
-app.get('/Cart', (req, res) => {
-    res.render("Cart")
-})
+// app.get('/Cart', (req, res) => {
+//     res.render("Cart")
+// })
 app.get('/cartEmpty', (req, res) => {
     res.render("cartEmpty")
 })
-// app.get('/category', (req, res) => {
-//     res.render("category")
-// })
+app.get('/category', (req, res) => {
+    res.render("category")
+})
 app.get('/categoryEquipment', (req, res) => {
     axios.get('http://127.0.0.1:3004/product/getallproducts')
         .then(response => {
@@ -158,15 +165,16 @@ app.get('/services', (req, res) => {
 app.get('/signUp', (req, res) => {
     res.render("signUp")
 })
+
+app.use('/userCart', cartRoute);
 app.use('/user', userRoutes);
 app.use('/product', productRoutes);
+app.use('/cart', addToCartRoute);    
 app.use((req, res) => { //Error link 
         res.status(404).send(" - Sorry can't find this page (404 Error) ")
     })
     //End Routing 
-// const addToCartRoute = require(cartRoutes); // Adjust the path if necessary
-//     app.use(addToCartRoute);
-    
+
 
 
 

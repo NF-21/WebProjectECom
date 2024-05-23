@@ -22,7 +22,7 @@ const User = new Schema({
   },
   cart: [
     {
-      productId: { type: mongoose.Schema.Types.ObjectId, ref: 'Product' },
+      productId: String ,
       quantity: Number
     },
   
