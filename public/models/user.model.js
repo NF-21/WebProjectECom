@@ -4,8 +4,9 @@ const bcrypt = require('bcryptjs');
 // var ids = require('short-id');
 
 const User = new Schema({
-  name: "ObjectId"
-  ,
+  name: {
+    type: String,
+  },
   email: {
     type: String,
   },
