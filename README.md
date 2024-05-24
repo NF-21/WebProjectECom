@@ -73,10 +73,19 @@ bellow the trackers we have a tracker for the most recent payment and a button t
 next to it is a tracker for the newest users and a logo link to view more information about them.<br>
 <img src="/public/images/AdminPage.png" style="width: 600px;"><br/><br/>
 
-<h3>product page page:</h3>
+<h3>products page:</h3>
 The top of the page contains a search bar, a "Add product" button to which would open the add Product page , and a "Go back" button which would open the dashboard.<br>
 bellow them there a collumn of all products, with each product containing at the top the product name bellow it is the product image, bellow that is the product description and price, and at the bottom 2 button the left button is to edit the product and the right button is to delete the product.<br> 
 <img src="/public/images/ProductsPage.png" style="width: 600px;"><br/><br/>
+
+<h3>Add product page:</h3>
+The page contains a form with text entry fields: Product Name, Description, Quantity, Price, Category, and Type, <br>
+and a file entry for the product image.<br>
+at the bottom ther are 2 buttons: a "Add Product" button to which would add the product to the database, and a "Go back" button which would open the Products page.
+<img src="/public/images/AddProductPage.png" style="width: 600px;"><br/><br/>
+
+
+
 
 <br/><br/>
 ## Technologies Used
