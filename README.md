@@ -106,7 +106,3 @@ at the bottom ther are 2 buttons: a "Update Product" button to which would updat
 • Nawaf Abdulrahman Aldakhil <br/>
 • Saad Hamad Almasaad <br/>
 
-
-<br/><br/>
-## And This some capture for out website
-
