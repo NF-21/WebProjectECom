@@ -9,11 +9,11 @@ provide a shop for fym goers to purchase all gym releated things. The website wo
 
 
 <br/><br/>
-## Requirements
-• Difine ejs and CSS <br/>
-• Use JavaScript <br/>
-• Establish Backend by using Node and express <br/>
-• Store data in a MongoDB <br/>
+## Technologies Used
+• Front-End ejs and CSS <br/>
+• JavaScript <br/>
+• Establishing Backend by using Node, express, and mongoose <br/>
+• Stored The data in MongoDB <br/>
 <br/><br/>
 
 ## Group members
