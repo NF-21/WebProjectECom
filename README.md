@@ -9,7 +9,11 @@ provide a shop for fym goers to purchase all gym releated things. The website wo
 
 <br/><br/>
 ## How the website is structured
-### Homepage
+### Homepage:<br>
+The homepage has a header with a logo link to the homepage and a search bar and an account logo for signin/signup and a cart logo to open the cart page.
+then there is a slider for deals and other news
+<br>
+### 
 
 
 <br/><br/>
