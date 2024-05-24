@@ -61,9 +61,9 @@ app.get('/home', (req, res) => {
 app.get('/index', (req, res) => {
     res.render("home")
 })
-// app.get('/Cart', (req, res) => {
-//     res.render("Cart")
-// })
+app.get('/Cart', (req, res) => {
+    res.render("Cart")
+})
 app.get('/cartEmpty', (req, res) => {
     res.render("cartEmpty")
 })

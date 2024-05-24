@@ -58,6 +58,11 @@ the T-Shirts & Tops page has the same footer as the homepage.<br>
 <img src="/public/images/TshirtsAndTops.png" style="width: 600px;"><br/><br/>
 
 
+<h3>Cart page:</h3>
+
+<img src="/public/images/CartPage.png" style="width: 600px;"><br/><br/>
+
+
 <br/><br/>
 ## Technologies Used
 • Front-End ejs and CSS <br/>
