@@ -63,9 +63,15 @@ the Cart page has the same header as the homepage.<br>
 when the cart has items it will display a list of the items with the ability to add and remove items, and you would a summer of the order with the shipping company name and total price.<br>
 when the cart is empty it would  show an image of a cart and text saying the cart is empty.<br>
 the Cart page has the same footer as the homepage.<br>
-<img src="/public/images/CartPage.png" style="width: 600px;"><br/><br/>
+<img src="/public/images/CartPage.png" style="width: 600px;"><br/>
 <img src="/public/images/EmptyCartPage.png" style="width: 600px;"><br/><br/>
 
+<h3>Admin dashboard page:</h3>
+The admin dashboard page has a side bar on the left with all the admin pages,<br>
+and the page contains a tracker for the number of users, a tracker for the number of products, a tracker for the number of categories, and a tracker for the income,<br>
+bellow the trackers we have a tracker for the most recent payment and a button to view each order,<br>
+next to it is a tracker for the newest users and a logo link to view more information about them.<br>
+<img src="/public/images/AdminPage.png" style="width: 600px;"><br/><br/>
 
 <br/><br/>
 ## Technologies Used
@@ -79,7 +85,7 @@ the Cart page has the same footer as the homepage.<br>
 • Fawaz Ibrahim Albahussain <br/>
 • Saleh Mohhamed Altuwaijri <br/>
 • Nawaf Abdulrahman Aldakhil <br/>
-• Saad Hamad Asmassad <br/>
+• Saad Hamad Almasaad <br/>
 
 
 <br/><br/>
@@ -90,7 +96,6 @@ the Cart page has the same footer as the homepage.<br>
 ## Login page
 
 ## Admin page
-<img src="/public/images/AdminPage.png" style="width: 600px;"><br/><br/><br/><br/>
 
 ## Products page
 
