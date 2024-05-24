@@ -27,7 +27,7 @@ provide a shop for fym goers to purchase all gym releated things. The website wo
 ## And This some capture for out website
 
 ## Home page
-<img src="/public/images/HomePage.png" style="width: 600px;"><br/><br/><br/><br/>
+<img src="/images/HomePage.png" style="width: 600px;"><br/><br/><br/><br/>
 <img src="/public/images/HomePage2.png" style="width: 600px;"><br/><br/><br/><br/>
 
 ## Login page
