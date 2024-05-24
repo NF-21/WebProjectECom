@@ -9,7 +9,7 @@ provide a shop for fym goers to purchase all gym releated things. The website wo
 
 <br/><br/>
 ## How the website is structured
-### Homepage:<br>
+<h3>Homepage:</h3>
 The homepage has at the top the header the red part containts a logo link to the homepage on the left side, and a search bar in the middle, and an account logo for Login/Signup and a cart logo to open the cart page on the right side. <br>
 the black part containts links to display specific categories.<br>
 bellow the header there is a slider for deals and news. <br>
@@ -20,7 +20,7 @@ lastly at the bottom of the page there is a footer. <br>
 <img src="/public/images/HomePage2.png" style="width: 600px;"><br/><br/>
 
 <br>
-<h3>Login/Signup:</h3><br>
+<h3>Login/Signup:</h3>
 the Login/Signup page has the same header as the homepage.<br>
 the Login/Signup page Login contains 2 text entry field for the email, and password and a submit button that when pressed with correct email and password would send you to the home page. <br>
 the Login/Signup page Signup contains 3 text entry field for the name, email, and password and a submit button that when pressed with correct email and password would send you to the home page.
