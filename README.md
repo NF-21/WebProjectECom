@@ -34,7 +34,7 @@ provide a shop for fym goers to purchase all gym releated things. The website wo
 <img src="/public/images/Login.png"  style="width: 600px;"><br/><br/><br/><br/>
 
 ## Admin page
-<img src="/public/images/Dashboard.png" style="width: 600px;"><br/><br/><br/><br/>
+<img src="/public/images/AdminPage.png" style="width: 600px;"><br/><br/><br/><br/>
 
 ## Products page
 <img src="/public/images/Equipments.png" style="width: 600px;"><br/><br/><br/><br/>
