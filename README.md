@@ -20,7 +20,7 @@ lastly at the bottom of the page there is a footer. <br>
 <img src="/public/images/HomePage2.png" style="width: 600px;"><br/><br/>
 
 <br>
-<h2>Login/Signup:</h2><br>
+<h3>Login/Signup:</h3><br>
 the Login/Signup page has the same header as the homepage.<br>
 the Login/Signup page Login contains 2 text entry field for the email, and password and a submit button that when pressed with correct email and password would send you to the home page. <br>
 the Login/Signup page Signup contains 3 text entry field for the name, email, and password and a submit button that when pressed with correct email and password would send you to the home page.
