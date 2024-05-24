@@ -110,12 +110,3 @@ at the bottom ther are 2 buttons: a "Update Product" button to which would updat
 <br/><br/>
 ## And This some capture for out website
 
-## Home page
-
-## Login page
-
-## Admin page
-
-## Products page
-
-## Add new product page
