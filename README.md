@@ -7,6 +7,8 @@ all things gym-related.
 ## Main Goals
 provide a shop for fym goers to purchase all gym releated things. The website would aim to offer convenience and ease of use, allowing customers to easily find supplements, equipment and purchase clothes, to get started on their gym journey to reach their perfect body. 
 
+<br/><br/>
+## How the website is structured
 
 <br/><br/>
 ## Technologies Used
