@@ -10,8 +10,14 @@ provide a shop for fym goers to purchase all gym releated things. The website wo
 <br/><br/>
 ## How the website is structured
 ### Homepage:<br>
-The homepage has a header with a logo link to the homepage and a search bar and an account logo for signin/signup and a cart logo to open the cart page.
-then there is a slider for deals and other news
+The homepage has a the top the header with a logo link to the homepage on the left side, and a search bar in the middle, and an account logo for signin/signup and a cart logo to open the cart page on the right side. <br>
+bellow the header there is a slider for deals and news. <br>
+bellow that there are icons to represent our categories. <br>
+then we have a display of all our products. <br>
+lastly at the bottom of the page there is a footer. <br> 
+<img src="/public/images/HomePage.png" style="width: 600px;"><br/><br/><br/><br/>
+<img src="/public/images/HomePage2.png" style="width: 600px;"><br/><br/><br/><br/>
+
 <br>
 ### 
 
@@ -35,8 +41,6 @@ then there is a slider for deals and other news
 ## And This some capture for out website
 
 ## Home page
-<img src="/public/images/HomePage.png" style="width: 600px;"><br/><br/><br/><br/>
-<img src="/public/images/HomePage2.png" style="width: 600px;"><br/><br/><br/><br/>
 
 ## Login page
 <img src="/public/images/Login.png"  style="width: 600px;"><br/><br/><br/><br/>
