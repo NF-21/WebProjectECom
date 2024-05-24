@@ -19,42 +19,43 @@ lastly at the bottom of the page there is a footer. <br>
 <img src="/public/images/HomePage.png" style="width: 600px;"><br/>
 <img src="/public/images/HomePage2.png" style="width: 600px;"><br/><br/>
 
-<br>
+
 <h3>Login/Signup:</h3>
 the Login/Signup page has the same header as the homepage.<br>
 the Login/Signup page Login contains 2 text entry field for the email, and password and a submit button that when pressed with correct email and password would send you to the home page. <br>
 the Login/Signup page Signup contains 3 text entry field for the name, email, and password and a submit button that when pressed with correct email and password would send you to the home page.
 the Login/Signup page has the same footer as the homepage.<br>
-<img src="/public/images/Login.png"  style="width: 600px;"><br/><br/><br/><br/>
+<img src="/public/images/Login.png"  style="width: 600px;"><br/><br/>
 
 
-<br>
-### Equipment page:<br>
+
+</h3>Equipment page:</h3>
 the Equipment page has the same header as the homepage.<br>
 the Equipment page displays only the products with the 'Equipment' category. <br>
 the Equipment page has the same footer as the homepage.<br>
-<img src="/public/images/Equipments.png" style="width: 600px;"><br/><br/><br/><br/>
+<img src="/public/images/Equipments.png" style="width: 600px;"><br/><br/>
 
-<br>
-### Equipment page:<br>
+
+</h3>Equipment page:</h3>
 the Equipment page has the same header as the homepage.<br>
 the Equipment page displays only the products with the 'Equipment' category. <br>
 the Equipment page has the same footer as the homepage.<br>
+<img src="/public/images/TshirtsAndTops.png" style="width: 600px;"><br/><br/>
 
-<br>
-### Accessories page:<br>
+
+</h3>Accessories page:</h3>
 the Accessories page has the same header as the homepage.<br>
 the Accessories page displays only the products with the 'Accessories' category. <br>
 the Accessories page has the same footer as the homepage.<br>
-<img src="/public/images/Accessories.png" style="width: 600px;"><br/><br/><br/><br/>
+<img src="/public/images/Accessories.png" style="width: 600px;"><br/><br/>
 
 
-<br>
-### Supplements page:<br>
+
+</h3>Supplements page:</h3>
 the Supplements page has the same header as the homepage.<br>
 the Supplements page displays only the products with the 'Supplements' category. <br>
 the Supplements page has the same footer as the homepage.<br>
-<img src="/public/images/Supplements.png" style="width: 600px;"><br/><br/><br/><br/>
+<img src="/public/images/Supplements.png" style="width: 600px;"><br/><br/
 
 
 <br/><br/>
