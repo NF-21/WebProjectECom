@@ -598,7 +598,7 @@ ul.dropdown{
 .footer-col .social-links a {
     display: inline-block;
     height: 40px;
-    width: 40px;
+    width: 40;
     background-color: rgb(255, 255, 255, 0.2);
     margin-right: 0 10px 10px 0;
     text-align: center;
