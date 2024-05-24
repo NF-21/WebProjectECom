@@ -36,13 +36,6 @@ the Equipment page has the same footer as the homepage.<br>
 <img src="/public/images/Equipments.png" style="width: 600px;"><br/><br/>
 
 
-</h3>Equipment page:</h3>
-the Equipment page has the same header as the homepage.<br>
-the Equipment page displays only the products with the 'Equipment' category. <br>
-the Equipment page has the same footer as the homepage.<br>
-<img src="/public/images/TshirtsAndTops.png" style="width: 600px;"><br/><br/>
-
-
 </h3>Accessories page:</h3>
 the Accessories page has the same header as the homepage.<br>
 the Accessories page displays only the products with the 'Accessories' category. <br>
@@ -50,12 +43,19 @@ the Accessories page has the same footer as the homepage.<br>
 <img src="/public/images/Accessories.png" style="width: 600px;"><br/><br/>
 
 
-
 </h3>Supplements page:</h3>
 the Supplements page has the same header as the homepage.<br>
 the Supplements page displays only the products with the 'Supplements' category. <br>
 the Supplements page has the same footer as the homepage.<br>
 <img src="/public/images/Supplements.png" style="width: 600px;"><br/><br/
+
+
+
+</h3>T-Shirts & Tops page:</h3>
+the T-Shirts & Tops page has the same header as the homepage.<br>
+the T-Shirts & Tops page displays only the products with the 'T-Shirts & Tops' category. <br>
+the T-Shirts & Tops page has the same footer as the homepage.<br>
+<img src="/public/images/TshirtsAndTops.png" style="width: 600px;"><br/><br/>
 
 
 <br/><br/>
