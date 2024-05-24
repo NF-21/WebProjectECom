@@ -60,7 +60,8 @@ the T-Shirts & Tops page has the same footer as the homepage.<br>
 
 <h3>Cart page:</h3>
 the Cart page has the same header as the homepage.<br>
-
+when the cart has items it will display a list of the items with the ability to add and remove items, and you would a summer of the order with the shipping company name and total price.<br>
+when the cart is empty it would  show an image of a cart and text saying the cart is empty.<br>
 the Cart page has the same footer as the homepage.<br>
 <img src="/public/images/CartPage.png" style="width: 600px;"><br/><br/>
 <img src="/public/images/EmptyCartPage.png" style="width: 600px;"><br/><br/>
