@@ -47,7 +47,7 @@ the Accessories page has the same footer as the homepage.<br>
 the Supplements page has the same header as the homepage.<br>
 the Supplements page displays only the products with the 'Supplements' category. <br>
 the Supplements page has the same footer as the homepage.<br>
-<img src="/public/images/Supplements.png" style="width: 600px;"><br/><br/
+<img src="/public/images/Supplements.png" style="width: 600px;"><br/><br/>
 
 
 
@@ -59,8 +59,11 @@ the T-Shirts & Tops page has the same footer as the homepage.<br>
 
 
 <h3>Cart page:</h3>
+the Cart page has the same header as the homepage.<br>
 
+the Cart page has the same footer as the homepage.<br>
 <img src="/public/images/CartPage.png" style="width: 600px;"><br/><br/>
+<img src="/public/images/EmptyCartPage.png" style="width: 600px;"><br/><br/>
 
 
 <br/><br/>
