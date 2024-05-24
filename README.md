@@ -84,6 +84,11 @@ and a file entry for the product image.<br>
 at the bottom ther are 2 buttons: a "Add Product" button to which would add the product to the database, and a "Go back" button which would open the Products page.
 <img src="/public/images/AddProductPage.png" style="width: 600px;"><br/><br/>
 
+<h3>Update product page:</h3>
+The page contains a form with text entry fields: Product Name, Description, Quantity, Price, Category, and Type, each filled with the old data <br>
+and a file entry for the product image.<br>
+at the bottom ther are 2 buttons: a "Update Product" button to which would update the product in the database, and a "Go back" button which would open the Products page.
+<img src="/public/images/UpdateProductPage.png" style="width: 600px;"><br/><br/>
 
 
 
