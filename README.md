@@ -27,16 +27,19 @@ provide a shop for fym goers to purchase all gym releated things. The website wo
 ## And This some capture for out website
 
 ## Home page
-<img src="/" style="width: 600px;"><br/><br/><br/><br/>
+<img src="/public/images/HomePage.png" style="width: 600px;"><br/><br/><br/><br/>
+<img src="/public/images/HomePage2.png" style="width: 600px;"><br/><br/><br/><br/>
 
 ## Login page
-<img src="/"  style="width: 600px;"><br/><br/><br/><br/>
+<img src="/public/images/Login.png"  style="width: 600px;"><br/><br/><br/><br/>
 
 ## Admin page
-<img src="/" style="width: 600px;"><br/><br/><br/><br/>
+<img src="/public/images/Adminpage.png" style="width: 600px;"><br/><br/><br/><br/>
 
 ## Products page
-<img src="/" style="width: 600px;"><br/><br/><br/><br/>
+<img src="/public/images/Equipments.png.png" style="width: 600px;"><br/><br/><br/><br/>
+<img src="/public/images/Accessories.png" style="width: 600px;"><br/><br/><br/><br/>
+<img src="/public/images/Supplements.png" style="width: 600px;"><br/><br/><br/><br/>
 
-## Add new product and edit page
-<img src="/" style="width: 600px;"><br/><br/><br/><br/>
+## Add new product page
+<img src="/public/images/AddProducts.png" style="width: 600px;"><br/><br/><br/><br/>
