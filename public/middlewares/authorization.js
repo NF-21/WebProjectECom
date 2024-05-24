@@ -7,12 +7,11 @@ module.exports = (req, res, next) => {
             throw new Error('Auth token not provided');
         } else {
             if (token.startsWith('Bearer ')) {
-                // Remove Bearer from string
                 token = token.slice(7, token.length);
             }
         }
         const decoded = jwt.verify(token, 'superSecret');
-        req.userData = decoded; // Store the decoded token data in the request object
+        req.userData = decoded;
         next();
     } catch (error) {
         next({

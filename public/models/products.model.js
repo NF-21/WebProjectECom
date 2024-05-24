@@ -3,6 +3,9 @@ const Schema = mongoose.Schema;
 // var ids = require('short-id');
 
 const Product = new Schema({
+  productID: {
+    type: String,
+  },
   productName: {
     type: String,
   },
@@ -10,7 +13,7 @@ const Product = new Schema({
     type: String,
   },
   quantity: {
-    type: String,
+    type: Number,
   },
   status: {
     type: String,
@@ -25,4 +28,25 @@ const Product = new Schema({
     type:String,
   }
 });
+
+function makeid(length) {
+  let result = '';
+  const characters = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789';
+  const charactersLength = characters.length;
+  let counter = 0;
+  while (counter < length) {
+    result += characters.charAt(Math.floor(Math.random() * charactersLength));
+    counter += 1;
+  }
+  return result;
+}
+
+
+Product.pre('save', function() {
+  if(this.isNew)
+      this.productID = makeid(8);
+});
+
+
+
 module.exports = mongoose.model('Product', Product);
